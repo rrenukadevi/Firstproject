@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span>Renuka</span>Devi</a>
+        <nav class="navbar">
+            <a href="#" class="active" onclick="scrollToNextSection('home')">Portfolio</a>
+            <a href="#" onclick="scrollToNextSection('skills')">Skills</a>
+            <a href="#" onclick="scrollToNextSection('experience')">Experience</a>
+            <a href="#" onclick="scrollToNextSection('projects')">Projects</a>
+            <a href="#" onclick="scrollToNextSection('education')">Education</a>
+        </nav>
+        <a href="#" class="contact" onclick="scrollToNextSection('contact-form')">Contact Me</a>
+    </header>
+
+    <section id="home" class="home">
+        <div class="home-content">
+            <h3>Hi</h3>
+            <h1>I'm <span>Renuka devi<br></span></h1>
+            <p>Hello! I'm Renuka Devi R, a passionate and motivated Web Designing graduate with a keen interest in Software Development. Welcome to my personal portfolio, where you can learn more about my skills, projects, and aspirations.</p>
+            <div class="btn-box">
+                <button class="btn-1" onclick="openResume()">Resume</button>
+                <button class="btn-2" onclick="scrollToNextSection('experience')">Experience</button>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="bg.png" alt="">
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="about-img">
+            <img src="bg.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading"> About <span>ME</span></h2>
+            <h3>WEB <span>DESIGNER</span></h3>
+            <p>
+                I am a recent graduate from University College Of Engineering Tindivanam, where I earned a degree in B TECh with a focus on Web Designing. Throughout my academic career, I have honed my skills in HTML, CSS, JavaScript, SQL, Canva, Python, enabling me to undertake and complete various complex projects.
+            </p>
+            <p>
+                My academic projects have provided me with hands-on experience in Security, AI, Python, where I demonstrated my ability to apply theoretical knowledge to practical challenges. These projects not only allowed me to enhance my technical skills but also taught me the importance of teamwork, problem-solving, and effective communication.
+            </p>
+            <p>
+                In addition to my technical abilities, I am highly organized and detail-oriented, with a proven ability to manage multiple tasks simultaneously and deliver results under pressure. I am passionate about continuous learning and am always eager to explore new technologies and methodologies that can contribute to the success of future projects.
+            </p>
+            <p>
+                I am particularly interested in Web Designing, and I am looking forward to leveraging my skills and knowledge to contribute to innovative projects in a dynamic and collaborative environment.
+            </p>
+            <p>
+                Outside of my academic pursuits, I enjoy creating greeting templates and logos using Canva, which helps me stay creative and motivated. I am excited about the opportunity to apply my skills in a professional setting and am keen to connect with like-minded professionals to further my career.
+            </p>
+            <a href="#" class="btn-2" onclick="scrollToNextSection('experience')">Experience</a>
+         </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2 class="heading"> My <span>Skills</span></h2>
+        <div class="skills-container">
+            <div class="skill">
+                <i class='bx bx-code-alt'></i>
+                <h3>HTML</h3>
+            </div>
+            <div class="skill">
+                <i class='bx bxl-css3'></i>
+                <h3>CSS</h3>
+            </div>
+            <div class="skill">
+                <i class='bx bxl-javascript'></i>
+                <h3>JavaScript</h3>
+            </div>
+            <div class="skill">
+                <i class='bx bxs-data'></i>
+                <h3>SQL</h3>
+            </div>
+            <div class="skill">
+                <i class='bx bxl-canva'></i>
+                <h3>Canva</h3>
+            </div>
+            <div class="skill">
+                <i class='bx bxl-python'></i>
+                <h3>Python</h3>
+            </div>
+            <div class="skill">
+                <i class='bx bxl-visual-studio'></i>
+                <h3>Visual Studio Code</h3>
+            </div>
+            <div class="skill">
+                <i class='bx bx-code'></i>
+                <h3>IDLE</h3>
+            </div>
+            <div class="skill">
+                <i class='bx bxl-python'></i>
+                <h3>Jupyter Notebook</h3>
+            </div>
+        </div>
+    </section>
+    <section id="experience" class="experience">
+        <h2 class="heading">My <span>Experience</span></h2>
+        <div class="experience-container">
+            <div class="experience-item">
+                <img src="Logo.png" alt="Work 1">
+                <h3>My First Logo Design </h3>
+                <p>"In addition to my technical skills, one of my hobbies is logo designing using Canva. I find immense joy and satisfaction in creating visually appealing logos that effectively represent the essence of a brand or project. Through this creative outlet, I have developed a keen eye for design, color theory, and typography. Utilizing Canva's extensive library of templates and tools, I experiment with different design elements to produce unique and professional logos. This hobby not only fuels my creativity but also enhances my design skills, which I apply to various aspects of my web development projects.".</p>
+            </div>
+            <div class="experience-item">
+                <img src="c1.jpg" alt="Work 2">
+                <h3>Design user interface for my project using canva</h3>
+                <p>"In addition to my technical skills, I have a passion for designing user interfaces (UI) for my projects using Canva. Canva is a versatile design tool that allows me to create visually engaging and user-friendly interfaces with ease. The platform's intuitive drag-and-drop functionality and extensive library of templates, graphics, and fonts enable me to experiment with various design elements and layouts With Canva, I can quickly prototype different screen layouts, including home pages, dashboards, and navigation menus, ensuring that each element contributes to a cohesive and aesthetically pleasing user experience.</p>
+            </div>
+            <div class="experience-item">
+                <img src="c2.jpg" alt="Work 2">
+                <h3>My First Banner Design</h3>
+                <p>"In addition to my technical skills, I have a passion for designing banners using Canva. Canva is an incredibly powerful and user-friendly design tool that allows me to create visually compelling banners for various purposes, including websites, social media, events, and advertising campaigns When I embark on a banner design project, my first step is to understand the objective and target audience. Whether it's promoting a product, announcing an event, or enhancing a social media profile, the goal of the banner dictates the design approach. </p>
+            </div>
+            <div class="experience-item">
+                <img src="cr2.jpg" alt="Work 2">
+                <h3>Learn JavaScript from GUVI</h3>
+                <p>"I have gained a lot of knowledge by learning JavaScript from GUVI. GUVI, an online platform specializing in technical education, has provided me with a comprehensive and structured approach to mastering JavaScript. The course covered fundamental concepts such as variables, data types, and control structures, as well as advanced topics like asynchronous programming, closures, and object-oriented programming.
+
+                    The hands-on exercises an</p>
+            </div>
+            <div class="experience-item">
+                <img src="cr1.jpg" alt="Work 2">
+                <h3>Soft Skill Training  </h3>
+                <p>The soft skill training in the RUSA program focuses on developing essential interpersonal and communication skills that are necessary for success in both professional and personal settings. Some of the key areas that are covered in the program include: Communication skill ,teamwork , Leadership, time Management.equip participants with the tools and techniques they need to succeed in today's competitive environment, both professionally and personally.</p>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="projects">
+        <h2 class="heading"> My <span>Projects</span></h2>
+        <div class="project-container">
+            <div class="project-item">
+                
+                <h3>Project 1:Detection Of DDOS[Distributed Denail of services] Attack using Explainable AI</h3>
+                <p>In this project ,we propose a Machine Learning(ML) framework for detection of distributed 
+                    denial of service attacks using explainable AI. The project aims to detect the DDOS attack 
+                    using k-nearest neighbors (KNN) algorithm along with KD Tree. This project classifies 
+                    DDOS sources at a fine granularity using each IP risk level Compared to previous DDoS detection
+                    approaches, this approach outputs explanatory information that enables network 
+                    administrators to easily inspect detection results and make necessary interventions.
+                    Moreover,achieving more than 95.6% accuracy 
+                    in detecting DDoS attacks at line speed.</p>
+                <a href="https://github.com/rrenukadevi/IT.git" class="github-link" target="_blank">GitHub</a>
+            </div>
+            <div class="project-item">
+                <h3>Project 2:Bookeees pop </h3>
+                <p>HTML: The structure includes a button to open the popup, and the popup itself which contains book details.<br>
+                    CSS: Styles the popup to be centered and overlays the entire screen with a semi-transparent background.<br>
+                    JavaScript: Handles the opening and closing of the popup by toggling its display property.
+                    To add functionality for multiple popups, you can expand the addAnotherPopupBtn click event in the JavaScript to dynamically create and display new popup elements This setup allows you to expand your application to handle multiple popups dynamically, each with its unique content and functionality for opening and closing. Adjust the styling and content of popups (popupContent.innerHTML) as per your application’s requirements..</p>
+                <a href="https://github.com/rrenukadevi/Firstproject" class="github-link" target="_blank">GitHub</a>
+            </div>
+            <div class="project-item">
+                <h3>Project 3:Event Management Web Page</h3>
+                <p>Creating an event management web page involves structuring content in HTML and styling it with CSS to create an engaging and user-friendly interface Designing an event management web page involves organizing content logically using HTML and enhancing its appearance using CSS. The structure and styling examples provided here aim to create a professional and user-friendly interface suitable for showcasing event services, upcoming events, company information, and contact details. Adjust and expand these examples based on your specific requirements and branding guidelines..</p>
+                <a href="https://github.com/rrenukadevi/Firstproject" class="github-link" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </section>
+    <section id="education" class="education">
+        <h2 class="heading"> My <span>Education</span></h2>
+        <div class="education-container">
+            <div class="education-item">
+                <h3> Bachelor of Technology </h3>
+                <p><strong>University College Of Engineering Tindivanam</strong></p>
+                <p><strong>University: Anna University</strong></p>
+                <p><strong>CGPA: 8.433</strong></p>
+                <p>Year: 2024</p>
+            </div>
+            <div class="education-item">
+                <h3> Higher Secondary Education (HSC)</h3>
+                <p><strong>Chirst The King Matric Higher Secondary School</strong></p>
+                <p><strong>Percentage: 74%</strong></p>
+                <p>Year: 2020</p>
+            </div>
+            <div class="education-item">
+                <h3> Secondary School Education (SSLC)</h3>
+                <p><strong>Chirst The King  Matric Higher Secondary School</strong></p>
+                <p><strong>Percentage: 84%</strong></p>
+                <p>Year: 2018</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-form" class="contact-form">
+        <h2 class="contact-me"> Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn-1">
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><i class='bx-fw bx bxl-facebook-square'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <a href="#"><i class='bx bxl-github'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+        </div>
+        <ul class="list">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+        <p class="copyright">@2024 Renu | All Rights Reserved</p>
+    </footer>
+
+    <script>
+        function scrollToNextSection(sectionId) {
+            var section = document.getElementById(sectionId);
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function openResume() {
+            window.open('https://drive.google.com/file/d/1eiNphQkUOy7TnSyFV9lW1zTCXc8k1G_q/view?usp=drivesdk', '_blank');
+        }
+    </script>
+</body>
+</html>
